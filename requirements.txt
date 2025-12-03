@@ -1,0 +1,28 @@
+# Core
+torch>=2.2.0
+torchaudio>=2.2.0
+
+# NumPy / SciPy (evitar NumPy 2.x que quebra TTS hoje)
+numpy>=1.22,<2.0
+scipy>=1.11,<1.13
+
+# Whisper
+openai-whisper
+
+# TTS (XTTS v2)
+TTS==0.21.2
+
+# Transformers stack
+transformers>=4.36,<4.47
+sentencepiece
+tokenizers
+
+# Audio
+soundfile
+pydub
+librosa>=0.10,<0.11
+
+# Utils
+tqdm
+requests
+pydantic>=1.10,<2.0
